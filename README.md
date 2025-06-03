@@ -56,7 +56,7 @@ ideal candidate for generating initial images that are closer in distribution to
 |Method|	Number of FID Samples	|Reverse Steps|	FID	|LPIPS	|PSNR	|SSIM|	Inference Time|
 |-|-|-|-|-|-|-|-|
 |DDPM	|1024	|1000|	58.2	|0.47|	9.6|	0.17|	42.4 s|
-|DIP-Guided DDPM	|1024	|**200**|	53.07	|0.49	|9.15	|0.20	|**0.0083 s**|
+|DIP-Guided DDPM	|1024	|**200**|	53.07	|0.49	|9.15	|0.20	|**15.2 s**|
 
 ![dip_gif](https://github.com/user-attachments/assets/36027e70-e1c4-41a9-b588-01a2acd5c273)
 
